@@ -1,3 +1,6 @@
+### Note
+- Missed corner cases etc: [note](./Note.md)
+
 ### Core leetcode questions:
 
 Array
