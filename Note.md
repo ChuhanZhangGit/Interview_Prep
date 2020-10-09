@@ -10,6 +10,9 @@
 ### Graph Errors
 - DFS / BFS 
 Before or during traversal need to keep track to visited nodes, prevent revist node, to ***avoid LOOPs and Overflows***.
+
+BFS: Update the visited flag immediate after the node have been put into queue. If not but update flag after polling the node from the queue, in case current level's nodes has parent/children relation with each other, some nodes will be visited multiple times before the visited flag gets updated.
+
 ---
 
 ### Syntax Errors
